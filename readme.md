@@ -13,3 +13,7 @@ Set parameter N on top.sv to generate a segmented design. N indicates the size o
 
 ### Segmented Configuration
 Set parameter R on top.sv to generate a partial design. R indicates the number of rows to apply permutation on.
+
+## Testing
+
+synth.tcl and impl.tcl are 2 tcl provided for users to quickly generate test cases to analyze the resource usage of a particular parameter set up of RPN.  
